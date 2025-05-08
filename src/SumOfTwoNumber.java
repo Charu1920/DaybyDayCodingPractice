@@ -6,7 +6,7 @@ public class SumOfTwoNumber {
 	public static int CalculateSum(int a, int b) {
 		int Sum = a + b;
 		return Sum;
-		
+
 	}
 
 	public static void main(String[] args) {
@@ -15,9 +15,9 @@ public class SumOfTwoNumber {
 		int a = sc.nextInt();
 		System.out.println("Enter the SecondNumber : ");
 		int b = sc.nextInt();
-		int Sum = CalculateSum(a , b);
+		int Sum = CalculateSum(a, b);
 		System.out.println("Sum of the two Number : " + Sum);
-		
+		System.out.println("Sum of the two Number Using Functions");
 
 	}
 
